@@ -1,6 +1,6 @@
 extends Node2D
 
-@export var world_size: Vector2i = Vector2i(50, 37)
+@export var world_size: Vector2i = Vector2i(100, 74)
 @export var tickDuration: float = 0.25
 
 @onready var tileMap := $TileMap as TileMap
